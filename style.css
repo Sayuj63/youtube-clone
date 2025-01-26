@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0f0f0f;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+.mainContainer{
+    /* border: 10px solid green; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbarContainer{
+    border: 10px solid red;
+    height: 10%;
+    display: flex;
+}
+
+.leftNavbarContainer,
+.middleNavbarContainer,
+.rightNavbarContainer{
+    border: 2px solid blue;
+    height: 100%;
+}
+
+
+.leftNavbarContainer,
+.rightNavbarContainer{
+    width: 20%;
+}
+
+.middleNavbarContainer{
+    width: 60%;
+}
+
+.mainContentContainer{
+    border: 10px solid black;
+    height: 90%;
+    display: flex;
+
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 1.2rem;
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+li:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+i{
+    margin-right: 1rem;
+  
+}
+
+.sidebarContainer{
+    /* border: 2px solid orange; */
+    width: 15%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.videoMainContainer{
+    /* border: 2px solid purple; */
+    width: 85%;
+    height: 100%;
+}
+
+.fixedCategoriesContainer{
+    /* border: 2px solid green; */
+    height: 10%;
+}
+
+.videoContainer{
+    /* border: 2px solid red; */
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: .5rem;
+    overflow-y: scroll;
+}
+
+.videoCardContainer{
+    width: 23%;
+    height: 280px;
+    border: 2px solid black;
+    margin: .5rem;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+}
+
+.thumbnailContainer{
+    height: 70%;   
+    border-radius: 10px;
+
+}
+
+.thumbnailContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.videoInfoContainer{
+    height: 30%;
+    display: flex;
+    
+}
+
+.iconContainer,
+.titleContainer,
+.moreContainer{
+    height: 100%;
+    /* border: 2px solid blue; */
+
+}
+
+.iconContainer{
+    width: 20%;
+    border-bottom-left-radius: 10px;
+
+}
+
+.moreContainer{
+    width: 10%;
+    border-bottom-right-radius: 10px;
+
+}
+
+.titleContainer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.iconContainer img{
+    border-radius: 50%;
+    margin-top: .2rem;
+    margin-left: .2rem;
+}
